@@ -7,7 +7,7 @@ def verifica(cor = "\033[1;34m"):
   global files
   path = getcwd()
   cor = cor
-  print(cor+"digite o parâmetro completo do diretório que você quer organizar\nou digite (./) Para organizar o diretório atual\nEX:".upper()+"\n"+"\033[1;93m"+f"{path}","\033[b1;32m")
+  print(cor+"digite o parâmetro completo do diretório que você quer organizar\nou digite (./) Para organizar o diretório atual\nEX:".upper()+"\n"+"\033[1;93m"+f"{path}","\033[1;32m")
   arquivo = input(">>>>> ")
   files = listdir(arquivo)
   if arquivo == "./":
