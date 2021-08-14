@@ -19,7 +19,7 @@ def verifica(cor = "\033[1;34m"):
 try:
   verifica()
   deu = True
-except FileNotFoundError as error:
+except Exception as error:
   print("\033[1;31m", error)
   deu = False
   sleep(2)
@@ -30,7 +30,7 @@ while deu == False:
   try:
     verifica("\033[1;35m")
     deu = True
-  except FileNotFoundError as error:
+  except Exception as error:
     print("\033[1;31m", error)
     deu = False
     sleep(2)
