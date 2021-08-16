@@ -7,4 +7,3 @@ O exemplo que aparece em amarelo logo após de iniciar o software é o parâmetr
  Se quiseres que o script organizze automaticamente o diretorio /sdcard e por ter passado esse parâmetro um erro em vermelho
 ([Errno 13] Permission denied: '/sdcard')
 tenha surgindo, nesse caso sugiro que verifique a permissão de armazenamento do seu terminal, se a permissão de armazenamento do seu terminal estiver desativada por favor ativia para que a aplicação tenha acesso naquele diretorio, se mesmo assim o erro persistir sugiro que reinicie a aplicação logo após de ter dado a permissão
-###### v
